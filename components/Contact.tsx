@@ -59,8 +59,8 @@ export default function Contact() {
           <div className="space-y-6">
             <div>
               <h3 className="text-foreground font-semibold mb-2">Email</h3>
-              <a href="mailto:drobermud@gmail.com" className="text-primary hover:text-primary/80 transition-colors">
-                drobermud@gmail.com
+              <a href="mailto:drobermudo@gmail.com" className="text-primary hover:text-primary/80 transition-colors">
+                drobermudo@gmail.com
               </a>
             </div>
 

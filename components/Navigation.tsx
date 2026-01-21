@@ -69,7 +69,7 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
 
           {/* Download Resume Button */}
           <a
-            href="/resume.pdf" // put your PDF in the public folder
+            href="/Resume.pdf" // put your PDF in the public folder
             download
             className="px-4 py-2 border border-primary text-primary font-medium rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors"
           >
