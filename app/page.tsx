@@ -15,7 +15,8 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState('about');
 
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-hidden perspective-1000">
+    <div className="relative min-h-screen bg-black text-white perspective-1000">
+
       <Navigation activeSection={activeSection} setActiveSection={setActiveSection} />
 
       {/* Universe Background */}
@@ -26,7 +27,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 py-16 lg:py-24">
           {/* Left Sidebar Navigation */}
-          <nav className="hidden lg:flex flex-col gap-8 sticky top-32 h-fit">
+          <nav className="hidden lg:flex flex-col gap-8 sticky top-32 self-start">
             <SidebarNav activeSection={activeSection} setActiveSection={setActiveSection} />
           </nav>
 
